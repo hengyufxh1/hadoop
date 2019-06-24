@@ -1,9 +1,0 @@
-English,liudehua,80
-English,lijing,79
-English,nezha,85
-English,jinzha,60
-English,muzha,71
-English,houzi,99
-English,libai,88
-English,hanxin,66
-English,zhugeliang,95

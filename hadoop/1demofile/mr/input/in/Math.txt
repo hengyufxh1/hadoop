@@ -1,9 +1,0 @@
-Math,liudehua,74
-Math,lijing,72
-Math,nezha,95
-Math,jinzha,61
-Math,muzha,37
-Math,houzi,37
-Math,libai,84
-Math,hanxin,89
-Math,zhugeliang,93
