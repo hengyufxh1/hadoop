@@ -1,0 +1,9 @@
+Computer,liudehua,54
+Computer,lijing,73
+Computer,nezha,86
+Computer,jinzha,96
+Computer,muzha,76
+Computer,houzi,92
+Computer,libai,73
+Computer,hanxin,82
+Computer,zhugeliang,100
