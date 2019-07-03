@@ -60,7 +60,7 @@ public class ZKApi {
     public void create() {
         String a = null;
         try {
-            a = zkClient.create("/dxw1", "aaa".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+            a = zkClient.create("/sk", "sk".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         } catch (KeeperException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
