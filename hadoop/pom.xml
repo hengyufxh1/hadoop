@@ -16,6 +16,7 @@
         <module>spark-api</module>
         <module>kafka-api</module>
         <module>compress-api</module>
+        <module>zookeeper-api</module>
         <module>flume-api</module>
     </modules>
 
