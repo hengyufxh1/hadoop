@@ -18,6 +18,8 @@
         <module>compress-api</module>
         <module>zookeeper-api</module>
         <module>flume-api</module>
+        <module>elasticsearch-api</module>
+        <module>hive-api</module>
     </modules>
 
 
