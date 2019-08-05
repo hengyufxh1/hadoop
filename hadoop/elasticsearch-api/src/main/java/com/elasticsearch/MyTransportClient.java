@@ -48,7 +48,7 @@ public class MyTransportClient {
 
         // 2 连接集群
         client = new PreBuiltTransportClient(settings);
-        client.addTransportAddress(new TransportAddress(InetAddress.getByName("es1"), 9300));
+        client.addTransportAddress(new TransportAddress(InetAddress.getByName("11.11.11.171"), 9300));
 
         // 3 打印集群名称
         System.out.println(client.toString());
@@ -61,7 +61,7 @@ public class MyTransportClient {
     @Test
     public void createIndex_blog() {
         // 1 创建索引
-        client.admin().indices().prepareCreate("blog4").get();
+        client.admin().indices().prepareCreate("blog6").get();
 
         // 2 关闭连接
         client.close();
@@ -70,7 +70,7 @@ public class MyTransportClient {
     @Test
     public void deleteIndex() {
         // 1 删除索引
-        client.admin().indices().prepareDelete("blog4").get();
+        client.admin().indices().prepareDelete("blog6").get();
 
         // 2 关闭连接
         client.close();

@@ -12,14 +12,13 @@
     <modules>
         <module>hdfs-api</module>
         <module>mapreduce-api</module>
-        <module>scala-api</module>
-        <module>spark-api</module>
         <module>kafka-api</module>
         <module>compress-api</module>
         <module>zookeeper-api</module>
         <module>flume-api</module>
         <module>elasticsearch-api</module>
         <module>hive-api</module>
+        <module>hbase-api</module>
     </modules>
 
 
