@@ -19,7 +19,7 @@
         <module>elasticsearch-api</module>
         <module>hive-api</module>
         <module>hbase-api</module>
-        <module>scala.api</module>
+        <module>scala-api</module>
     </modules>
 
 
