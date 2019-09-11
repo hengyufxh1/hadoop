@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="compress.api" />
+        <module name="elasticsearch.api" />
+        <module name="flink.api" />
+        <module name="flume.api" />
+        <module name="hbase.api" />
+        <module name="hdfs.api" />
+        <module name="hive.api" />
+        <module name="kafka.api" />
+        <module name="mapreduce.api" />
+        <module name="scala.api" />
+        <module name="zookeeper.api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="compress.api" target="1.8" />
+      <module name="elasticsearch.api" target="1.8" />
+      <module name="flink.api" target="1.8" />
+      <module name="flume.api" target="1.8" />
+      <module name="hadoop" target="1.8" />
+      <module name="hbase.api" target="1.8" />
+      <module name="hdfs.api" target="1.8" />
+      <module name="hive.api" target="1.8" />
+      <module name="kafka.api" target="1.8" />
+      <module name="mapreduce.api" target="1.8" />
+      <module name="scala.api" target="1.8" />
+      <module name="spark.api" target="1.8" />
+      <module name="zookeeper.api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
