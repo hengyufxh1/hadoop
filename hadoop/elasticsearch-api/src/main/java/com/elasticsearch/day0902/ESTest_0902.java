@@ -58,7 +58,7 @@ public class ESTest_0902 {
     @Test
     public void createIndex_blog() {
         // 1 创建索引
-        client.admin().indices().prepareCreate("blog1").get();
+        client.admin().indices().prepareCreate("kibana_data").get();
         // 2 关闭连接
         client.close();
     }
@@ -79,14 +79,17 @@ public class ESTest_0902 {
      */
     @Test
     public void createIndexDataByJson() {
-        // 使用json 创建document
-        // 1 文档的数据准备
-        String json = "{" + "\"id\":\"1\"," + "\"title\":\"基于Lucene的搜索服务器\","
-                + "\"content\":\"它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口\"" + "}";
-        // 2 创建文档
-        IndexResponse indexResponse = client.prepareIndex("blog1", "article", "1").setSource(json).execute().actionGet();
+        for(int i = 100;i<=100;i++){
+            System.out.println(i+"在添加");
+            // 使用json 创建document
+            // 1 文档的数据准备
+            String json = "{" + "\"id\":\""+i+"\"," + "\"title\":\""+i+"、基于Lucene的搜索服务器\","
+                    + "\"content\":\"它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口\"" + "}";
+            // 2 创建文档
+            IndexResponse indexResponse = client.prepareIndex("kibana_data", "article", i+"").setSource(json).execute().actionGet();
 
-        isClose(indexResponse);
+//            isClose(indexResponse);
+        }
     }
 
 
