@@ -33,7 +33,7 @@
         </dependency>
     </dependencies>
     <properties>
-        <actor.version>2.5.4</actor.version>
+        <actor.version>2.5.32</actor.version>
     </properties>
 
 
